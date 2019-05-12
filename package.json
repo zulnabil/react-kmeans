@@ -8,6 +8,7 @@
     "node-kmeans": "^1.1.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-google-charts": "^3.0.13",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.0"
   },

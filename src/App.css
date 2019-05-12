@@ -35,27 +35,45 @@
 }
 
 .Initial-table {
-  width: 50%;
-  padding: 50px;
+  width: 45%;
+  padding: 30px 3%;
 }
 
 .Cluster-table {
   margin-left: -400px;
-  width: 50%;
-  height: 100%;
-  padding: 50px;
+  width: 55%;
+  padding: 30px 3%;
   opacity: 0;
   visibility: hidden;
 }
 
 .Cluster-table-run {
   margin-left: 0px;
-  width: 50%;
-  height: 100%;
-  padding: 50px;
+  width: 55%;
+  padding: 30px 3%;
   opacity: 1;
   visibility: visible;
   transition: visibility 1s, opacity 1s, margin 1s ease-out;
+}
+
+.table-convertdata {
+  max-height: 300px;
+  overflow-y: scroll;
+  width: 70%;
+  margin: 0 auto 0;
+  transition: margin 1s linear;
+}
+
+.table-convertdata-isopen {
+  max-height: 300px;
+  overflow-y: scroll;
+  margin: 0 auto 30px;
+  transition: margin 1s ease-in;
+  width: 70%;
+}
+
+.desc-cluster {
+  margin-top: 30px;
 }
 
 .label-form {
@@ -65,7 +83,7 @@
 }
 
 .button-form {
-  
+  margin-top: 15px;
 }
 
 * {
@@ -73,25 +91,40 @@
 }
 
 .title-app {
-  padding: 50px;
+  padding: 50px 0 0;
 }
 
 .form-centroid {
   margin-top: 30px;
 }
 
+.form-initialtable {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.form-clustertable {
+  margin-top: -2px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
 .lbl-initialtable {
+  float: left;
   margin-bottom: 20px;
 }
 
 .lbl-clustertable {
+  float: left;
   margin-bottom: 20px;
 }
 
 .btn-normalisasi {
-  margin-left: 80px;
+  /* margin-left: 80px; */
   /* display: flex; */
-  position: absolute;  
+  /* position: absolute;   */
+  float: right;
+  margin-left: 10px;
   border-radius: 5px;
 }
 
@@ -100,13 +133,13 @@
 }
 
 .btn-denormalisasi {
-  margin-left: 30px;
-  /* display: flex; */
-  position: absolute;  
   border-radius: 5px;
+  margin-left: 10px;
+  float: right;
 }
 
-.btn-denormalisasi-none {
-  display: none;
+.collapse-table {
+  display: flex;
+  margin: auto;
+  /* width: 70%; */
 }
-
